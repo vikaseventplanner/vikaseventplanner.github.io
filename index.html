@@ -99,35 +99,75 @@ padding:15px;border-radius:50%;text-decoration:none;font-size:24px;
 
 </div>
 
-<div class="card bill-form">
-<h2>📋 Booking Invoice Form</h2>
-<h2>📋 Booking Invoice Form</h2>
+<div class="card bill-form" style="background:#f5dc74;padding:20px;border:3px solid #000;">
+
+<h2 style="text-align:center;">🌼 VIKAS EVENT PLANNER 🌼</h2>
+
+<p><b>बुकिंग नंबर:</b></p>
+<input type="text" name="booking_no" placeholder="बुकिंग नंबर">
 
 <form action="https://formsubmit.co/ajitkumar3344a@gmail.com" method="POST">
 
-<input type="text" name="name" placeholder="Customer Name" required>
+<input type="hidden" name="_captcha" value="false">
 
-<input type="tel" name="phone" placeholder="Mobile Number" required>
+<p><b>ग्राहक का नाम</b></p>
+<input type="text" name="customer_name" required>
 
-<select name="event">
-<option>Wedding Decoration</option>
-<option>Haldi Theme</option>
-<option>Birthday Event</option>
-<option>Stage Decoration</option>
-<option>Floral Decoration</option>
-</select>
+<p><b>मोबाइल नंबर</b></p>
+<input type="tel" name="mobile" required>
 
-<input type="date" name="date">
+<p><b>पूरा पता</b></p>
+<input type="text" name="address">
 
-<input type="text" name="location" placeholder="Event Location">
+<p><b>कार्यक्रम की तारीख</b></p>
+<input type="date" name="event_date">
 
-<input type="text" name="budget" placeholder="Budget Amount">
+<p><b>कार्यक्रम का समय</b></p>
+<input type="time" name="event_time">
 
-<textarea name="message" placeholder="Extra Details"></textarea>
+<p><b>कार्यक्रम स्थल</b></p>
+<input type="text" name="venue">
 
-<button type="submit">Submit Booking</button>
+<p><b>सजावट का प्रकार</b></p>
+
+<textarea name="services" rows="8">
+
+स्टेज डेकोरेशन
+मंडप सजावट
+जयमाला स्टेज
+हल्दी सजावट
+मेहंदी सजावट
+फूल सजावट
+लाइटिंग सजावट
+गेट सजावट
+रिंग सेरेमनी
+बर्थडे सजावट
+डीजे सेटअप
+अन्य
+
+</textarea>
+
+<p><b>कुल बुकिंग राशि ₹</b></p>
+<input type="number" name="total_amount">
+
+<p><b>बयाना प्राप्त ₹</b></p>
+<input type="number" name="advance_amount">
+
+<p><b>बाकी राशि ₹</b></p>
+<input type="number" name="remaining_amount">
+
+<p><b>विशेष जानकारी</b></p>
+<textarea name="message" rows="4"></textarea>
+
+<br><br>
+
+<button type="submit"
+style="background:#000;color:#fff;padding:12px 25px;font-size:18px;border:none;">
+बुकिंग सबमिट करें
+</button>
 
 </form>
+
 </div>
 </div><div class="card">
 <h2>Gallery</h2>
