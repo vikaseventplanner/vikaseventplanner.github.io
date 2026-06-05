@@ -92,32 +92,35 @@ padding:15px;border-radius:50%;text-decoration:none;font-size:24px;
 <p>
 <a href="https://maps.app.goo.gl/wRe6DnSQg9UfHtncA?g_st=ic" target="_blank">
 📍 View Live Location on Google Maps
-</a>
-</p>
-<div class="card">
-
-</div><div class="card">
-<h2>Book Your Event</h2>
+<div class="card bill-form">
+<h2>📋 Booking Invoice Form</h2>
 
 <form action="https://formsubmit.co/ajitkumar3344a@gmail.com" method="POST">
 
-<input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:10px;margin:10px 0;">
+<input type="text" name="name" placeholder="Customer Name" required>
 
-<input type="tel" name="phone" placeholder="Mobile Number" required style="width:100%;padding:10px;margin:10px 0;">
+<input type="tel" name="phone" placeholder="Mobile Number" required>
 
-<input type="text" name="event" placeholder="Event Type" required style="width:100%;padding:10px;margin:10px 0;">
+<select name="event">
+<option>Wedding Decoration</option>
+<option>Haldi Theme</option>
+<option>Birthday Event</option>
+<option>Stage Decoration</option>
+<option>Floral Decoration</option>
+</select>
 
-<input type="date" name="date" style="width:100%;padding:10px;margin:10px 0;">
+<input type="date" name="date">
 
-<input type="text" name="location" placeholder="Event Location" style="width:100%;padding:10px;margin:10px 0;">
+<input type="text" name="location" placeholder="Event Location">
 
-<textarea name="message" placeholder="Event Details" style="width:100%;padding:10px;margin:10px 0;height:100px;"></textarea>
+<input type="text" name="budget" placeholder="Budget Amount">
 
-<button type="submit" style="background:#25D366;color:white;padding:12px 20px;border:none;border-radius:5px;">
-Submit Booking
-</button>
+<textarea name="message" placeholder="Extra Details"></textarea>
+
+<button type="submit">Submit Booking</button>
 
 </form>
+</div>
 </div><div class="card">
 <h2>Gallery</h2>
 
